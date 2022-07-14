@@ -16,7 +16,7 @@ body {
 #imagem1 {
     width: 100px;
     height: 100px;
-    background-image: url("/img/mullerHead.png");
+    background-image: url("../img/mullerHead.png");
 }
 
 
