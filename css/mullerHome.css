@@ -3,15 +3,20 @@ body {
     height: 100vh;
 }
 
-#cabecalho h1 {
+#head {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background-color: #505050;
+
+}
+
+#cabecalho h1 {
     font-family: 'MedievalSharp', cursive;
     font-size: 30px;
     color: white;
-    padding: 20px 0;
-    background-color: #3d3d3d;
 }
 
 #menu {
@@ -28,10 +33,20 @@ body {
     font-weight: bold;
     color: white;
     width: 180px;
-    height: 30px;
+    height: 35px;
 }
 
 .menuStyle:hover {
     cursor: pointer;
     background-color: blue;
+}
+
+@media screen and (max-width: 720px) {
+    
+    .menuStyle {
+        font-size: 6px;
+        width: 90px;
+        height: 40px;
+    }
+
 }
