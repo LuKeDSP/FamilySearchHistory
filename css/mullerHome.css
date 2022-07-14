@@ -23,7 +23,6 @@ body {
 #head {
     display: flex;
     align-items: center;
-    width: 100vw;
     height: 100px;
     background-color: #ffcc00;
     padding: 0 30px;
@@ -33,6 +32,7 @@ body {
     display: flex;
     justify-content: initial;
     background-color: #000000;
+    margin: 0;
 }
 
 .menuStyle {
@@ -69,7 +69,7 @@ body {
     #imagem1 {
         width: 70px;
         height: 70px;
-        background-image: url("/img/mullerHead.png");
+        background-image: url("../img/mullerHead.png");
         background-size: cover;
         margin: 0 0 0 15px;
     }
@@ -78,7 +78,6 @@ body {
     #head {
         display: flex;
         align-items: center;
-        width: 100vw;
         height: 70px;
         background-color: #ffcc00;
         padding: 0;
@@ -89,7 +88,8 @@ body {
         font-family: 'MedievalSharp', cursive;
         font-size: 25px;
         color: rgb(0, 0, 0);
-        padding: 0 15px;
+        padding: 0 0 0 10px;
+        margin: 0;
     }
 
 }
