@@ -26,15 +26,19 @@ body {
 }
 
 #muller:hover {
-    background-image: url("/img/germanyflagbtn.png");
+    background-image: url("../img/germanyflagbtn.png");
     color: black;
     padding: 0 75px 0 0;
 }
 
 #pilatti:hover {
-    background-image: url("/img/romeflagbtn.png");
+    background-image: url("../img/romeflagbtn.png");
     color: #ffcc00;
     padding: 0 0 0 75px;
+}
+
+#muller:active,#pilatti:active {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 600px) {
