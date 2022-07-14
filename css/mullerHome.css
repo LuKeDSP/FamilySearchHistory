@@ -9,7 +9,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100px;
-    background-color: #505050;
+    background-color: #151515;
 
 }
 
@@ -22,23 +22,30 @@ body {
 #menu {
     display: flex;
     justify-content: center;
-    background-color: #303030;
+    background-color: #000000;
 }
 
 .menuStyle {
     border-style: none;
-    background-color: #303030;
+    background-color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
     font-weight: bold;
     color: white;
     width: 180px;
     height: 35px;
+    transition: 0.2s;
 }
 
 .menuStyle:hover {
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.menuStyle:active {
+    background-color: rgb(255, 208, 0);
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 720px) {
