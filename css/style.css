@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1b1b1b;
+}
+
+#muller,#pilatti {
+    transition: 0.1s;
+    width: 250px;
+    height: 100px;
+    margin: 0 5px;
+    border-style: none;
+    border-radius: 10px;
+    font-family:'MedievalSharp', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#muller:hover,#pilatti:hover {
+    cursor: pointer;
+    background-position: fixed;
+}
+
+#muller:hover {
+    background-image: url("/img/germanyflagbtn.png");
+    color: black;
+    padding: 0 75px 0 0;
+}
+
+#pilatti:hover {
+    background-image: url("/img/romeflagbtn.png");
+    color: #ffcc00;
+    padding: 0 0 0 75px;
+}
+
+@media screen and (max-width: 600px) {
+    #mullerBtn,#pilattiBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0 0 0;
+        padding: 20px;
+        width: 250px;
+        border-style: none;
+        border-radius: 10px;
+    }
+}
