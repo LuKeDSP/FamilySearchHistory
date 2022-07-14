@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#cabecalho h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30px;
+    color: white;
+    padding: 20px 0;
+    background-color: #3d3d3d;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+    background-color: #303030;
+}
+
+.menuStyle {
+    border-style: none;
+    background-color: #303030;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 160px;
+    height: 30px;
+}
+
+.menuStyle:hover {
+    cursor: pointer;
+    background-color: blue;
+}
