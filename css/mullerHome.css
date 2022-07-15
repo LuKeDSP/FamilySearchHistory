@@ -4,33 +4,33 @@ body {
     background-color: #202020;
 }
 
-
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: #ffcc00;
+}
 
 #cabecalho h1 {
     font-size: 30px;
-    padding: 0 30px;
+    padding: 0 60px 0 0;
     font-family: 'MedievalSharp', cursive;
     font-weight: bold;
-    color: rgb(0, 0, 0);
-}
-
-#head {
-    display: flex;
-    align-items: center;
-    height: 100px;
-    padding: 0 30px;
-    background-color: #ffcc00;
+    color: #000000;
 }
 
 #imagem {
     width: 100px;
     height: 100px;
+    margin: 0 0 0 60px;
     background-image: url("../img/mullerHead.png");
+    background-repeat: no-repeat;
 }
 
 #menu {
     display: flex;
-    justify-content: initial;
+    justify-content: center;
     background-color: #000000;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 #feed {
-    width: 80%;
+    width: 50%;
     height: 600px;
     margin: 20px 0;
     padding: 20px;
